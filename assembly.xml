@@ -1,0 +1,16 @@
+<assembly>
+    <id>release</id>
+    <formats>
+        <format>zip</format>
+    </formats>
+    <fileSets>
+        <fileSet>
+            <excludes>
+                <exclude>target/</exclude>
+                <exclude>*.zip</exclude>
+                <exclude>*.xml</exclude>
+            </excludes>
+            <outputDirectory>\</outputDirectory>
+        </fileSet>
+    </fileSets>
+</assembly>

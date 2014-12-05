@@ -1,0 +1,641 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'express',
+1 verbose cli   'socket.io',
+1 verbose cli   'flavored-path',
+1 verbose cli   'cli',
+1 verbose cli   '--registry',
+1 verbose cli   '=',
+1 verbose cli   'https://registry.npm.taobao.org' ]
+2 warn invalid config registry="="
+3 warn invalid config Must be a full url with 'http://'
+4 info using npm@1.4.28
+5 info using node@v0.10.33
+6 verbose node symlink /usr/bin/node
+7 verbose cache add [ 'express', null ]
+8 verbose cache add name=undefined spec="express" args=["express",null]
+9 verbose parsed url { protocol: null,
+9 verbose parsed url   slashes: null,
+9 verbose parsed url   auth: null,
+9 verbose parsed url   host: null,
+9 verbose parsed url   port: null,
+9 verbose parsed url   hostname: null,
+9 verbose parsed url   hash: null,
+9 verbose parsed url   search: null,
+9 verbose parsed url   query: null,
+9 verbose parsed url   pathname: 'express',
+9 verbose parsed url   path: 'express',
+9 verbose parsed url   href: 'express' }
+10 verbose cache add [ 'socket.io', null ]
+11 verbose cache add name=undefined spec="socket.io" args=["socket.io",null]
+12 verbose parsed url { protocol: null,
+12 verbose parsed url   slashes: null,
+12 verbose parsed url   auth: null,
+12 verbose parsed url   host: null,
+12 verbose parsed url   port: null,
+12 verbose parsed url   hostname: null,
+12 verbose parsed url   hash: null,
+12 verbose parsed url   search: null,
+12 verbose parsed url   query: null,
+12 verbose parsed url   pathname: 'socket.io',
+12 verbose parsed url   path: 'socket.io',
+12 verbose parsed url   href: 'socket.io' }
+13 verbose cache add [ 'flavored-path', null ]
+14 verbose cache add name=undefined spec="flavored-path" args=["flavored-path",null]
+15 verbose parsed url { protocol: null,
+15 verbose parsed url   slashes: null,
+15 verbose parsed url   auth: null,
+15 verbose parsed url   host: null,
+15 verbose parsed url   port: null,
+15 verbose parsed url   hostname: null,
+15 verbose parsed url   hash: null,
+15 verbose parsed url   search: null,
+15 verbose parsed url   query: null,
+15 verbose parsed url   pathname: 'flavored-path',
+15 verbose parsed url   path: 'flavored-path',
+15 verbose parsed url   href: 'flavored-path' }
+16 verbose cache add [ 'cli', null ]
+17 verbose cache add name=undefined spec="cli" args=["cli",null]
+18 verbose parsed url { protocol: null,
+18 verbose parsed url   slashes: null,
+18 verbose parsed url   auth: null,
+18 verbose parsed url   host: null,
+18 verbose parsed url   port: null,
+18 verbose parsed url   hostname: null,
+18 verbose parsed url   hash: null,
+18 verbose parsed url   search: null,
+18 verbose parsed url   query: null,
+18 verbose parsed url   pathname: 'cli',
+18 verbose parsed url   path: 'cli',
+18 verbose parsed url   href: 'cli' }
+19 verbose cache add [ 'https://registry.npm.taobao.org', null ]
+20 verbose cache add name=undefined spec="https://registry.npm.taobao.org" args=["https://registry.npm.taobao.org",null]
+21 verbose parsed url { protocol: 'https:',
+21 verbose parsed url   slashes: true,
+21 verbose parsed url   auth: null,
+21 verbose parsed url   host: 'registry.npm.taobao.org',
+21 verbose parsed url   port: null,
+21 verbose parsed url   hostname: 'registry.npm.taobao.org',
+21 verbose parsed url   hash: null,
+21 verbose parsed url   search: null,
+21 verbose parsed url   query: null,
+21 verbose parsed url   pathname: '/',
+21 verbose parsed url   path: '/',
+21 verbose parsed url   href: 'https://registry.npm.taobao.org/' }
+22 silly lockFile 3e0490e8-https-registry-npm-taobao-org https://registry.npm.taobao.org
+23 verbose lock https://registry.npm.taobao.org /home/chilaoqi/.npm/3e0490e8-https-registry-npm-taobao-org.lock
+24 silly lockFile f3c62de4-express express
+25 verbose lock express /home/chilaoqi/.npm/f3c62de4-express.lock
+26 silly lockFile 71475bfd-socket-io socket.io
+27 verbose lock socket.io /home/chilaoqi/.npm/71475bfd-socket-io.lock
+28 silly lockFile a81e91b8-flavored-path flavored-path
+29 verbose lock flavored-path /home/chilaoqi/.npm/a81e91b8-flavored-path.lock
+30 silly lockFile 2bd8e9c9-cli cli
+31 verbose lock cli /home/chilaoqi/.npm/2bd8e9c9-cli.lock
+32 verbose addRemoteTarball [ 'https://registry.npm.taobao.org', null ]
+33 info retry fetch attempt 1 at 00:58:02
+34 verbose fetch to= /tmp/npm-16674-vRSPuJfw/registry.npm.taobao.org
+35 silly lockFile 71475bfd-socket-io socket.io
+36 silly lockFile 71475bfd-socket-io socket.io
+37 silly lockFile f3c62de4-express express
+38 silly lockFile f3c62de4-express express
+39 silly lockFile a81e91b8-flavored-path flavored-path
+40 silly lockFile a81e91b8-flavored-path flavored-path
+41 silly lockFile 2bd8e9c9-cli cli
+42 silly lockFile 2bd8e9c9-cli cli
+43 verbose addNamed [ 'socket.io', '' ]
+44 verbose addNamed [ null, '*' ]
+45 silly lockFile c03de861-socket-io socket.io@
+46 verbose lock socket.io@ /home/chilaoqi/.npm/c03de861-socket-io.lock
+47 verbose addNamed [ 'express', '' ]
+48 verbose addNamed [ null, '*' ]
+49 silly lockFile 64a534c1-express express@
+50 verbose lock express@ /home/chilaoqi/.npm/64a534c1-express.lock
+51 verbose addNamed [ 'flavored-path', '' ]
+52 verbose addNamed [ null, '*' ]
+53 silly lockFile 1996be1d-flavored-path flavored-path@
+54 verbose lock flavored-path@ /home/chilaoqi/.npm/1996be1d-flavored-path.lock
+55 http GET https://registry.npm.taobao.org/
+56 verbose addNamed [ 'cli', '' ]
+57 verbose addNamed [ null, '*' ]
+58 silly lockFile e0d27b0e-cli cli@
+59 verbose lock cli@ /home/chilaoqi/.npm/e0d27b0e-cli.lock
+60 silly addNameRange { name: 'socket.io', range: '*', hasData: false }
+61 silly addNameRange { name: 'express', range: '*', hasData: false }
+62 silly addNameRange { name: 'flavored-path', range: '*', hasData: false }
+63 silly addNameRange { name: 'cli', range: '*', hasData: false }
+64 verbose request where is /socket.io
+65 verbose request registry https://registry.npmjs.org/
+66 verbose url raw /socket.io
+67 verbose url resolving [ 'https://registry.npmjs.org/', './socket.io' ]
+68 verbose url resolved https://registry.npmjs.org/socket.io
+69 verbose request where is https://registry.npmjs.org/socket.io
+70 info trying registry request attempt 1 at 00:58:02
+71 verbose etag "4MF62BJVIZA6EDD0D2E4TQYSS"
+72 http GET https://registry.npmjs.org/socket.io
+73 verbose request where is /flavored-path
+74 verbose request registry https://registry.npmjs.org/
+75 verbose url raw /flavored-path
+76 verbose url resolving [ 'https://registry.npmjs.org/', './flavored-path' ]
+77 verbose url resolved https://registry.npmjs.org/flavored-path
+78 verbose request where is https://registry.npmjs.org/flavored-path
+79 info trying registry request attempt 1 at 00:58:02
+80 verbose etag "35P6L9QLSOC409X0V96B7AKLX"
+81 http GET https://registry.npmjs.org/flavored-path
+82 verbose request where is /cli
+83 verbose request registry https://registry.npmjs.org/
+84 verbose url raw /cli
+85 verbose url resolving [ 'https://registry.npmjs.org/', './cli' ]
+86 verbose url resolved https://registry.npmjs.org/cli
+87 verbose request where is https://registry.npmjs.org/cli
+88 info trying registry request attempt 1 at 00:58:02
+89 verbose etag "51JF4M78RDWKRUHLBOR03FJ2O"
+90 http GET https://registry.npmjs.org/cli
+91 verbose request where is /express
+92 verbose request registry https://registry.npmjs.org/
+93 verbose url raw /express
+94 verbose url resolving [ 'https://registry.npmjs.org/', './express' ]
+95 verbose url resolved https://registry.npmjs.org/express
+96 verbose request where is https://registry.npmjs.org/express
+97 info trying registry request attempt 1 at 00:58:02
+98 verbose etag "2UTCQ4C2D3G6TRYPQ526AEDIG"
+99 http GET https://registry.npmjs.org/express
+100 http 304 https://registry.npmjs.org/express
+101 silly registry.get cb [ 304,
+101 silly registry.get   { date: 'Fri, 05 Dec 2014 16:58:03 GMT',
+101 silly registry.get     server: 'Apache',
+101 silly registry.get     via: '1.1 varnish',
+101 silly registry.get     'last-modified': 'Fri, 05 Dec 2014 16:57:40 GMT',
+101 silly registry.get     'cache-control': 'max-age=60',
+101 silly registry.get     etag: '"2UTCQ4C2D3G6TRYPQ526AEDIG"',
+101 silly registry.get     age: '23',
+101 silly registry.get     'x-served-by': 'cache-sn88-SIN',
+101 silly registry.get     'x-cache': 'HIT',
+101 silly registry.get     'x-cache-hits': '3',
+101 silly registry.get     'x-timer': 'S1417798683.408202,VS0,VE0',
+101 silly registry.get     vary: 'Accept',
+101 silly registry.get     'content-length': '0',
+101 silly registry.get     'keep-alive': 'timeout=10, max=50',
+101 silly registry.get     connection: 'Keep-Alive' } ]
+102 verbose etag https://registry.npmjs.org/express from cache
+103 silly addNameRange number 2 { name: 'express', range: '*', hasData: true }
+104 silly addNameRange versions [ 'express',
+104 silly addNameRange   [ '0.14.0',
+104 silly addNameRange     '0.14.1',
+104 silly addNameRange     '1.0.0',
+104 silly addNameRange     '1.0.1',
+104 silly addNameRange     '1.0.2',
+104 silly addNameRange     '1.0.3',
+104 silly addNameRange     '1.0.4',
+104 silly addNameRange     '1.0.5',
+104 silly addNameRange     '1.0.6',
+104 silly addNameRange     '1.0.7',
+104 silly addNameRange     '1.0.8',
+104 silly addNameRange     '2.0.0',
+104 silly addNameRange     '2.1.0',
+104 silly addNameRange     '2.1.1',
+104 silly addNameRange     '2.2.0',
+104 silly addNameRange     '2.2.1',
+104 silly addNameRange     '2.2.2',
+104 silly addNameRange     '2.3.0',
+104 silly addNameRange     '2.3.1',
+104 silly addNameRange     '2.3.2',
+104 silly addNameRange     '2.3.3',
+104 silly addNameRange     '2.3.4',
+104 silly addNameRange     '2.3.5',
+104 silly addNameRange     '2.3.6',
+104 silly addNameRange     '2.3.7',
+104 silly addNameRange     '2.3.8',
+104 silly addNameRange     '2.3.9',
+104 silly addNameRange     '2.3.10',
+104 silly addNameRange     '2.3.11',
+104 silly addNameRange     '2.3.12',
+104 silly addNameRange     '2.4.0',
+104 silly addNameRange     '2.4.1',
+104 silly addNameRange     '2.4.2',
+104 silly addNameRange     '2.4.3',
+104 silly addNameRange     '2.4.4',
+104 silly addNameRange     '2.4.5',
+104 silly addNameRange     '2.4.6',
+104 silly addNameRange     '2.4.7',
+104 silly addNameRange     '2.5.0',
+104 silly addNameRange     '2.5.1',
+104 silly addNameRange     '2.5.2',
+104 silly addNameRange     '2.5.3',
+104 silly addNameRange     '2.5.4',
+104 silly addNameRange     '2.5.5',
+104 silly addNameRange     '2.5.6',
+104 silly addNameRange     '2.5.7',
+104 silly addNameRange     '2.5.8',
+104 silly addNameRange     '2.5.9',
+104 silly addNameRange     '2.5.10',
+104 silly addNameRange     '2.5.11',
+104 silly addNameRange     '3.0.0',
+104 silly addNameRange     '3.0.1',
+104 silly addNameRange     '3.0.2',
+104 silly addNameRange     '3.0.3',
+104 silly addNameRange     '3.0.4',
+104 silly addNameRange     '3.0.5',
+104 silly addNameRange     '3.0.6',
+104 silly addNameRange     '3.1.0',
+104 silly addNameRange     '3.1.1',
+104 silly addNameRange     '3.1.2',
+104 silly addNameRange     '3.2.0',
+104 silly addNameRange     '3.2.1',
+104 silly addNameRange     '3.2.2',
+104 silly addNameRange     '3.2.3',
+104 silly addNameRange     '3.2.4',
+104 silly addNameRange     '3.2.5',
+104 silly addNameRange     '3.2.6',
+104 silly addNameRange     '3.3.0',
+104 silly addNameRange     '3.3.1',
+104 silly addNameRange     '3.3.2',
+104 silly addNameRange     '3.3.3',
+104 silly addNameRange     '3.3.4',
+104 silly addNameRange     '3.3.5',
+104 silly addNameRange     '3.3.6',
+104 silly addNameRange     '1.0.0-beta',
+104 silly addNameRange     '1.0.0-beta2',
+104 silly addNameRange     '1.0.0-rc',
+104 silly addNameRange     '1.0.0-rc2',
+104 silly addNameRange     '1.0.0-rc3',
+104 silly addNameRange     '1.0.0-rc4',
+104 silly addNameRange     '2.0.0-beta',
+104 silly addNameRange     '2.0.0-beta2',
+104 silly addNameRange     '2.0.0-beta3',
+104 silly addNameRange     '2.0.0-rc',
+104 silly addNameRange     '2.0.0-rc2',
+104 silly addNameRange     '2.0.0-rc3',
+104 silly addNameRange     '3.0.0-alpha1',
+104 silly addNameRange     '3.0.0-alpha2',
+104 silly addNameRange     '3.0.0-alpha3',
+104 silly addNameRange     '3.0.0-alpha4',
+104 silly addNameRange     '3.0.0-alpha5',
+104 silly addNameRange     '3.0.0-beta1',
+104 silly addNameRange     '3.0.0-beta2',
+104 silly addNameRange     '3.0.0-beta3',
+104 silly addNameRange     '3.0.0-beta4',
+104 silly addNameRange     '3.0.0-beta6',
+104 silly addNameRange     '3.0.0-beta7',
+104 silly addNameRange     '3.0.0-rc1',
+104 silly addNameRange     '3.0.0-rc2',
+104 silly addNameRange     '3.0.0-rc3',
+104 silly addNameRange     '3.0.0-rc4',
+104 silly addNameRange     '3.0.0-rc5',
+104 silly addNameRange     '3.3.7',
+104 silly addNameRange     '3.3.8',
+104 silly addNameRange     '3.4.0',
+104 silly addNameRange     '3.4.1',
+104 silly addNameRange     '3.4.2',
+104 silly addNameRange     '3.4.3',
+104 silly addNameRange     '3.4.4',
+104 silly addNameRange     '3.4.5',
+104 silly addNameRange     '3.4.6',
+104 silly addNameRange     '3.4.7',
+104 silly addNameRange     '3.4.8',
+104 silly addNameRange     '4.0.0-rc1',
+104 silly addNameRange     '4.0.0-rc2',
+104 silly addNameRange     '3.5.0',
+104 silly addNameRange     '4.0.0-rc3',
+104 silly addNameRange     '4.0.0-rc4',
+104 silly addNameRange     '3.5.1',
+104 silly addNameRange     '4.0.0',
+104 silly addNameRange     '3.5.2',
+104 silly addNameRange     '4.1.0',
+104 silly addNameRange     '4.1.1',
+104 silly addNameRange     '3.5.3',
+104 silly addNameRange     '4.1.2',
+104 silly addNameRange     '3.6.0',
+104 silly addNameRange     '4.2.0',
+104 silly addNameRange     '3.7.0',
+104 silly addNameRange     '3.8.0',
+104 silly addNameRange     '4.3.0',
+104 silly addNameRange     '4.3.1',
+104 silly addNameRange     '3.8.1',
+104 silly addNameRange     '4.3.2',
+104 silly addNameRange     '3.9.0',
+104 silly addNameRange     '4.4.0',
+104 silly addNameRange     '4.4.1',
+104 silly addNameRange     '3.10.0',
+104 silly addNameRange     '3.10.1',
+104 silly addNameRange     '3.10.2',
+104 silly addNameRange     '3.10.3',
+104 silly addNameRange     '3.10.4',
+104 silly addNameRange     '4.4.2',
+104 silly addNameRange     '3.10.5',
+104 silly addNameRange     '4.4.3',
+104 silly addNameRange     '3.11.0',
+104 silly addNameRange     '4.4.4',
+104 silly addNameRange     '3.12.0',
+104 silly addNameRange     '3.12.1',
+104 silly addNameRange     '4.4.5',
+104 silly addNameRange     '3.13.0',
+104 silly addNameRange     '4.5.0',
+104 silly addNameRange     '4.5.1',
+104 silly addNameRange     '3.14.0',
+104 silly addNameRange     '4.6.0',
+104 silly addNameRange     '4.6.1',
+104 silly addNameRange     '3.15.0',
+104 silly addNameRange     '4.7.0',
+104 silly addNameRange     '3.15.1',
+104 silly addNameRange     '4.7.1',
+104 silly addNameRange     '3.15.2',
+104 silly addNameRange     '4.7.2',
+104 silly addNameRange     '4.7.3',
+104 silly addNameRange     '3.15.3',
+104 silly addNameRange     '4.7.4',
+104 silly addNameRange     '3.16.0',
+104 silly addNameRange     '4.8.0',
+104 silly addNameRange     '3.16.1',
+104 silly addNameRange     '4.8.1',
+104 silly addNameRange     '3.16.2',
+104 silly addNameRange     '4.8.2',
+104 silly addNameRange     '3.16.3',
+104 silly addNameRange     '3.16.4',
+104 silly addNameRange     '4.8.3',
+104 silly addNameRange     '3.16.5',
+104 silly addNameRange     '3.16.6',
+104 silly addNameRange     '4.8.4',
+104 silly addNameRange     '3.16.7',
+104 silly addNameRange     '4.8.5',
+104 silly addNameRange     '3.16.8',
+104 silly addNameRange     '4.8.6',
+104 silly addNameRange     '3.16.9',
+104 silly addNameRange     '4.8.7',
+104 silly addNameRange     '3.16.10',
+104 silly addNameRange     '4.8.8',
+104 silly addNameRange     '3.17.0',
+104 silly addNameRange     '3.17.1',
+104 silly addNameRange     '4.9.0',
+104 silly addNameRange     '3.17.2',
+104 silly addNameRange     '4.9.1',
+104 silly addNameRange     '4.9.2',
+104 silly addNameRange     '3.17.3',
+104 silly addNameRange     '4.9.3',
+104 silly addNameRange     '3.17.4',
+104 silly addNameRange     '4.9.4',
+104 silly addNameRange     '3.17.5',
+104 silly addNameRange     '4.9.5',
+104 silly addNameRange     '3.17.6',
+104 silly addNameRange     '3.17.7',
+104 silly addNameRange     '4.9.6',
+104 silly addNameRange     '4.9.7',
+104 silly addNameRange     '3.17.8',
+104 silly addNameRange     '4.9.8',
+104 silly addNameRange     '3.18.0',
+104 silly addNameRange     '3.18.1',
+104 silly addNameRange     '4.10.0',
+104 silly addNameRange     '3.18.2',
+104 silly addNameRange     '4.10.1',
+104 silly addNameRange     '5.0.0-alpha.1',
+104 silly addNameRange     '3.18.3',
+104 silly addNameRange     '4.10.2',
+104 silly addNameRange     '3.18.4',
+104 silly addNameRange     '4.10.3',
+104 silly addNameRange     '4.10.4' ] ]
+105 verbose addNamed [ 'express', '4.10.4' ]
+106 verbose addNamed [ '4.10.4', '4.10.4' ]
+107 silly lockFile c05f2c08-express-4-10-4 express@4.10.4
+108 verbose lock express@4.10.4 /home/chilaoqi/.npm/c05f2c08-express-4-10-4.lock
+109 silly lockFile c05f2c08-express-4-10-4 express@4.10.4
+110 silly lockFile c05f2c08-express-4-10-4 express@4.10.4
+111 silly lockFile 64a534c1-express express@
+112 silly lockFile 64a534c1-express express@
+113 http 304 https://registry.npmjs.org/flavored-path
+114 silly registry.get cb [ 304,
+114 silly registry.get   { date: 'Fri, 05 Dec 2014 16:58:03 GMT',
+114 silly registry.get     server: 'Apache',
+114 silly registry.get     via: '1.1 varnish',
+114 silly registry.get     'last-modified': 'Fri, 05 Dec 2014 16:58:03 GMT',
+114 silly registry.get     'cache-control': 'max-age=60',
+114 silly registry.get     etag: '"35P6L9QLSOC409X0V96B7AKLX"',
+114 silly registry.get     age: '0',
+114 silly registry.get     'x-served-by': 'cache-sn86-SIN',
+114 silly registry.get     'x-cache': 'MISS',
+114 silly registry.get     'x-cache-hits': '0',
+114 silly registry.get     'x-timer': 'S1417798683.323705,VS0,VE200',
+114 silly registry.get     vary: 'Accept',
+114 silly registry.get     'content-length': '0',
+114 silly registry.get     'keep-alive': 'timeout=10, max=50',
+114 silly registry.get     connection: 'Keep-Alive' } ]
+115 verbose etag https://registry.npmjs.org/flavored-path from cache
+116 silly addNameRange number 2 { name: 'flavored-path', range: '*', hasData: true }
+117 silly addNameRange versions [ 'flavored-path',
+117 silly addNameRange   [ '0.0.1', '0.0.2', '0.0.3', '0.0.4', '0.0.6', '0.0.7', '0.0.8' ] ]
+118 verbose addNamed [ 'flavored-path', '0.0.8' ]
+119 verbose addNamed [ '0.0.8', '0.0.8' ]
+120 silly lockFile 1e4b8685-flavored-path-0-0-8 flavored-path@0.0.8
+121 verbose lock flavored-path@0.0.8 /home/chilaoqi/.npm/1e4b8685-flavored-path-0-0-8.lock
+122 warn deprecated flavored-path@0.0.8: use rwd
+123 silly lockFile 1e4b8685-flavored-path-0-0-8 flavored-path@0.0.8
+124 silly lockFile 1e4b8685-flavored-path-0-0-8 flavored-path@0.0.8
+125 silly lockFile 1996be1d-flavored-path flavored-path@
+126 silly lockFile 1996be1d-flavored-path flavored-path@
+127 http 304 https://registry.npmjs.org/cli
+128 silly registry.get cb [ 304,
+128 silly registry.get   { date: 'Fri, 05 Dec 2014 16:58:03 GMT',
+128 silly registry.get     server: 'Apache',
+128 silly registry.get     via: '1.1 varnish',
+128 silly registry.get     'last-modified': 'Fri, 05 Dec 2014 16:58:03 GMT',
+128 silly registry.get     'cache-control': 'max-age=60',
+128 silly registry.get     etag: '"51JF4M78RDWKRUHLBOR03FJ2O"',
+128 silly registry.get     age: '0',
+128 silly registry.get     'x-served-by': 'cache-sn88-SIN',
+128 silly registry.get     'x-cache': 'HIT',
+128 silly registry.get     'x-cache-hits': '1',
+128 silly registry.get     'x-timer': 'S1417798683.367411,VS0,VE199',
+128 silly registry.get     vary: 'Accept',
+128 silly registry.get     'content-length': '0',
+128 silly registry.get     'keep-alive': 'timeout=10, max=50',
+128 silly registry.get     connection: 'Keep-Alive' } ]
+129 verbose etag https://registry.npmjs.org/cli from cache
+130 silly addNameRange number 2 { name: 'cli', range: '*', hasData: true }
+131 silly addNameRange versions [ 'cli',
+131 silly addNameRange   [ '0.1.0',
+131 silly addNameRange     '0.1.1',
+131 silly addNameRange     '0.1.3',
+131 silly addNameRange     '0.1.4',
+131 silly addNameRange     '0.1.5',
+131 silly addNameRange     '0.1.6',
+131 silly addNameRange     '0.1.7',
+131 silly addNameRange     '0.1.8',
+131 silly addNameRange     '0.1.9',
+131 silly addNameRange     '0.2.0',
+131 silly addNameRange     '0.2.1-1',
+131 silly addNameRange     '0.2.2-1',
+131 silly addNameRange     '0.2.3-1',
+131 silly addNameRange     '0.2.3-2',
+131 silly addNameRange     '0.2.3-3',
+131 silly addNameRange     '0.2.3-4',
+131 silly addNameRange     '0.2.3-5',
+131 silly addNameRange     '0.2.4-1',
+131 silly addNameRange     '0.2.4-2',
+131 silly addNameRange     '0.2.5',
+131 silly addNameRange     '0.2.6',
+131 silly addNameRange     '0.2.7',
+131 silly addNameRange     '0.2.8',
+131 silly addNameRange     '0.3.0',
+131 silly addNameRange     '0.3.1',
+131 silly addNameRange     '0.3.2',
+131 silly addNameRange     '0.3.3',
+131 silly addNameRange     '0.3.4',
+131 silly addNameRange     '0.3.5',
+131 silly addNameRange     '0.3.6',
+131 silly addNameRange     '0.3.7',
+131 silly addNameRange     '0.3.8',
+131 silly addNameRange     '0.3.9',
+131 silly addNameRange     '0.4.0',
+131 silly addNameRange     '0.4.1',
+131 silly addNameRange     '0.4.2',
+131 silly addNameRange     '0.4.3',
+131 silly addNameRange     '0.4.4',
+131 silly addNameRange     '0.4.4-1',
+131 silly addNameRange     '0.4.4-2',
+131 silly addNameRange     '0.4.5',
+131 silly addNameRange     '0.5.0',
+131 silly addNameRange     '0.6.0',
+131 silly addNameRange     '0.6.2',
+131 silly addNameRange     '0.6.3',
+131 silly addNameRange     '0.6.4',
+131 silly addNameRange     '0.6.5' ] ]
+132 verbose addNamed [ 'cli', '0.6.5' ]
+133 verbose addNamed [ '0.6.5', '0.6.5' ]
+134 silly lockFile d370b45b-cli-0-6-5 cli@0.6.5
+135 verbose lock cli@0.6.5 /home/chilaoqi/.npm/d370b45b-cli-0-6-5.lock
+136 silly lockFile d370b45b-cli-0-6-5 cli@0.6.5
+137 silly lockFile d370b45b-cli-0-6-5 cli@0.6.5
+138 silly lockFile e0d27b0e-cli cli@
+139 silly lockFile e0d27b0e-cli cli@
+140 http 304 https://registry.npmjs.org/socket.io
+141 silly registry.get cb [ 304,
+141 silly registry.get   { date: 'Fri, 05 Dec 2014 16:58:03 GMT',
+141 silly registry.get     server: 'Apache',
+141 silly registry.get     via: '1.1 varnish',
+141 silly registry.get     'last-modified': 'Fri, 05 Dec 2014 16:58:04 GMT',
+141 silly registry.get     'cache-control': 'max-age=60',
+141 silly registry.get     etag: '"4MF62BJVIZA6EDD0D2E4TQYSS"',
+141 silly registry.get     age: '0',
+141 silly registry.get     'x-served-by': 'cache-sn86-SIN',
+141 silly registry.get     'x-cache': 'HIT',
+141 silly registry.get     'x-cache-hits': '1',
+141 silly registry.get     'x-timer': 'S1417798683.388529,VS0,VE1038',
+141 silly registry.get     vary: 'Accept',
+141 silly registry.get     'content-length': '0',
+141 silly registry.get     'keep-alive': 'timeout=10, max=50',
+141 silly registry.get     connection: 'Keep-Alive' } ]
+142 verbose etag https://registry.npmjs.org/socket.io from cache
+143 silly addNameRange number 2 { name: 'socket.io', range: '*', hasData: true }
+144 silly addNameRange versions [ 'socket.io',
+144 silly addNameRange   [ '0.3.8',
+144 silly addNameRange     '0.4.0',
+144 silly addNameRange     '0.4.1',
+144 silly addNameRange     '0.5.1',
+144 silly addNameRange     '0.5.3',
+144 silly addNameRange     '0.6.0',
+144 silly addNameRange     '0.6.1',
+144 silly addNameRange     '0.6.3',
+144 silly addNameRange     '0.6.4',
+144 silly addNameRange     '0.6.5',
+144 silly addNameRange     '0.6.6',
+144 silly addNameRange     '0.6.7',
+144 silly addNameRange     '0.6.8',
+144 silly addNameRange     '0.6.9',
+144 silly addNameRange     '0.6.10',
+144 silly addNameRange     '0.6.11',
+144 silly addNameRange     '0.6.12',
+144 silly addNameRange     '0.6.14',
+144 silly addNameRange     '0.6.15',
+144 silly addNameRange     '0.6.16',
+144 silly addNameRange     '0.6.17',
+144 silly addNameRange     '0.6.18',
+144 silly addNameRange     '0.7.0',
+144 silly addNameRange     '0.7.1',
+144 silly addNameRange     '0.7.2',
+144 silly addNameRange     '0.7.3',
+144 silly addNameRange     '0.7.4',
+144 silly addNameRange     '0.7.5',
+144 silly addNameRange     '0.7.6',
+144 silly addNameRange     '0.7.7',
+144 silly addNameRange     '0.7.8',
+144 silly addNameRange     '0.7.9',
+144 silly addNameRange     '0.7.10',
+144 silly addNameRange     '0.7.11',
+144 silly addNameRange     '0.8.0',
+144 silly addNameRange     '0.8.1',
+144 silly addNameRange     '0.8.2',
+144 silly addNameRange     '0.8.3',
+144 silly addNameRange     '0.8.4',
+144 silly addNameRange     '0.8.5',
+144 silly addNameRange     '0.8.6',
+144 silly addNameRange     '0.8.7',
+144 silly addNameRange     '0.9.0',
+144 silly addNameRange     '0.9.1',
+144 silly addNameRange     '0.9.1-1',
+144 silly addNameRange     '0.9.2',
+144 silly addNameRange     '0.9.3',
+144 silly addNameRange     '0.9.4',
+144 silly addNameRange     '0.9.5',
+144 silly addNameRange     '0.9.6',
+144 silly addNameRange     '0.9.7',
+144 silly addNameRange     '0.9.8',
+144 silly addNameRange     '0.9.9',
+144 silly addNameRange     '0.9.10',
+144 silly addNameRange     '0.9.11',
+144 silly addNameRange     '0.9.12',
+144 silly addNameRange     '0.9.13',
+144 silly addNameRange     '0.9.14',
+144 silly addNameRange     '0.9.15',
+144 silly addNameRange     '0.9.16',
+144 silly addNameRange     '1.0.0-pre',
+144 silly addNameRange     '1.0.0-pre2',
+144 silly addNameRange     '1.0.0-pre3',
+144 silly addNameRange     '1.0.0-pre4',
+144 silly addNameRange     '1.0.0-pre5',
+144 silly addNameRange     '0.9.17',
+144 silly addNameRange     '1.0.0',
+144 silly addNameRange     '1.0.1',
+144 silly addNameRange     '1.0.2',
+144 silly addNameRange     '1.0.3',
+144 silly addNameRange     '1.0.4',
+144 silly addNameRange     '1.0.5',
+144 silly addNameRange     '1.0.6',
+144 silly addNameRange     '1.1.0',
+144 silly addNameRange     '1.2.0',
+144 silly addNameRange     '1.2.1' ] ]
+145 verbose addNamed [ 'socket.io', '1.2.1' ]
+146 verbose addNamed [ '1.2.1', '1.2.1' ]
+147 silly lockFile 77e414a6-socket-io-1-2-1 socket.io@1.2.1
+148 verbose lock socket.io@1.2.1 /home/chilaoqi/.npm/77e414a6-socket-io-1-2-1.lock
+149 silly lockFile 77e414a6-socket-io-1-2-1 socket.io@1.2.1
+150 silly lockFile 77e414a6-socket-io-1-2-1 socket.io@1.2.1
+151 silly lockFile c03de861-socket-io socket.io@
+152 silly lockFile c03de861-socket-io socket.io@
+153 http 200 https://registry.npm.taobao.org
+154 verbose tar unpack /tmp/npm-16674-vRSPuJfw/registry.npm.taobao.org
+155 silly lockFile df80801d-w-registry-npm-taobao-org-unpack tar:///tmp/npm-16674-vRSPuJfw/registry.npm.taobao.org-unpack
+156 verbose lock tar:///tmp/npm-16674-vRSPuJfw/registry.npm.taobao.org-unpack /home/chilaoqi/.npm/df80801d-w-registry-npm-taobao-org-unpack.lock
+157 silly lockFile afefcb74-vRSPuJfw-registry-npm-taobao-org tar:///tmp/npm-16674-vRSPuJfw/registry.npm.taobao.org
+158 verbose lock tar:///tmp/npm-16674-vRSPuJfw/registry.npm.taobao.org /home/chilaoqi/.npm/afefcb74-vRSPuJfw-registry-npm-taobao-org.lock
+159 silly gunzTarPerm modes [ '775', '664' ]
+160 error not a package /tmp/npm-16674-vRSPuJfw/registry.npm.taobao.org
+161 silly lockFile df80801d-w-registry-npm-taobao-org-unpack tar:///tmp/npm-16674-vRSPuJfw/registry.npm.taobao.org-unpack
+162 silly lockFile df80801d-w-registry-npm-taobao-org-unpack tar:///tmp/npm-16674-vRSPuJfw/registry.npm.taobao.org-unpack
+163 silly lockFile afefcb74-vRSPuJfw-registry-npm-taobao-org tar:///tmp/npm-16674-vRSPuJfw/registry.npm.taobao.org
+164 silly lockFile afefcb74-vRSPuJfw-registry-npm-taobao-org tar:///tmp/npm-16674-vRSPuJfw/registry.npm.taobao.org
+165 silly lockFile 3e0490e8-https-registry-npm-taobao-org https://registry.npm.taobao.org
+166 silly lockFile 3e0490e8-https-registry-npm-taobao-org https://registry.npm.taobao.org
+167 error Error: ENOENT, open '/tmp/npm-16674-vRSPuJfw/registry.npm.taobao.org-unpack/package.json'
+168 error If you need help, you may report this *entire* log,
+168 error including the npm and node versions, at:
+168 error     <http://github.com/npm/npm/issues>
+169 error System Linux 3.13.0-40-generic
+170 error command "/usr/bin/node" "/usr/bin/npm" "install" "express" "socket.io" "flavored-path" "cli" "--registry" "=" "https://registry.npm.taobao.org"
+171 error cwd /home/chilaoqi/Dropbox/Kubernetes/build-bin/visualizer
+172 error node -v v0.10.33
+173 error npm -v 1.4.28
+174 error path /tmp/npm-16674-vRSPuJfw/registry.npm.taobao.org-unpack/package.json
+175 error code ENOENT
+176 error errno 34
+177 verbose exit [ 34, true ]
